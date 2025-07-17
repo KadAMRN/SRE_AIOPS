@@ -1,10 +1,9 @@
 # Rapport Technique : Conception et Implémentation d'une Plateforme AIOps Hybride
 
-## 1. Mission et Synthèse pour le Décideur (Executive Summary)
 
 Ce document détaille la conception et la réalisation d'une plateforme AIOps visant à transformer la supervision d'infrastructure d'un processus réactif à une gestion proactive et intelligente. La solution développée répond à la problématique d'un CTO submergé par des données de monitoring complexes en automatisant la détection d'anomalies et en fournissant des plans d'action clairs et priorisés.
 
-Notre philosophie est de combiner le meilleur de deux mondes : la **rigueur de l'analyse de données classique** pour une détection factuelle et objective, et la **puissance de raisonnement de l'IA Générative** pour l'interprétation, la corrélation et la recommandation stratégique. Le résultat est un système qui non seulement alerte, mais qui **assiste activement la prise de décision**.
+La philosophie est de combiner le meilleur de deux mondes : la **rigueur de l'analyse de données classique** pour une détection factuelle et objective, et la **puissance de raisonnement de l'IA Générative** pour l'interprétation, la corrélation et la recommandation stratégique. Le résultat est un système qui non seulement alerte, mais qui **assiste activement la prise de décision**.
 
 ## 2. Philosophie d'Ingénierie : Une Architecture Hybride à Deux Niveaux
 
@@ -28,7 +27,7 @@ Une liste d'anomalies, même précise, n'est souvent qu'une liste de symptômes.
 
 ## 3. Décomposition Fonctionnelle du Pipeline
 
-Chaque module de notre architecture a un rôle, des entrées et des sorties clairement définis.
+Chaque module de l'architecture a un rôle, des entrées et des sorties clairement définis.
 
 ### Module 1 : `analyse` - Le Moteur de Détection Scientifique
 
